@@ -20,7 +20,9 @@ All notesbook can be run on Colab (!pip install is included in the first cell).
 
 'SVD_analylsis' directory:
 
-- Generate_Synthetic_Voltages.ipynb: Runs the forward simulation for the DCR cases shown in the paper. 5% Gaussion noises are added to the synthetic data.
+- Case_1.ipynb, Case_2.ipynb: Conduct SVD analylsis for Case 1 or 2 on the cases where no position encoding is employed. The results are saved in "no_encoding_USV_Case_*.pkl'.
+- Plot_SVD_seismic.ipynb: Reproduce the plots for left-singular vectors and singular values for Case 1 or 2.
+- SVD_Case_3.ipynb, SVD_Case_4.ipynb: Conduct SVD analylsis for Case 3 or 4. The results are saved in "no_encoding_USV_Case_*.pkl'. Reproduce the plots for left-singular vectors and singular values for Case 3 or 4.
 - 
 ## Usage
 
